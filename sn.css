@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f6f6f6;
+}
+
+.navbar li:hover {
+    color: #fbfbfb;
+    animation: translateY 0.8s infinite alternate, changeColor 0.8s infinite alternate;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+    transition: color 0.8s ease-in-out, background-color 0.8s ease-in-out;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f6f6f6;
+}
+
+.navbar li:hover {
+    color: #fbfbfb;
+    color: #ff0000;
+    animation: translateY 0.8s infinite alternate, changeColor 0.8s infinite alternate;
+}
+
+@keyframes translateY {
+    from {
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-5px) scale(1.1);
+    }
+}
+
+@keyframes changeColor {
+    0%,
+    100% {
+        color: transparent;
+    }
+    50% {
+        color: #ff0000;
+    }
+}
+
+@keyframes changeColor {
+    0%,
+    100% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #ff0000;
+    }
+}
