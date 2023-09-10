@@ -1,0 +1,5 @@
+Azul-celeste: #e0f4f0
+Verde-menta: #b2e8e6
+Lavanda: #d6cdb9
+Rosa claro: #fff0f5
+Branco: #ffffff

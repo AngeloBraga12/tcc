@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: black;
-    color: wheat;
+    background-color: rgb(32, 2, 2);
+    color: #e0f4f0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -35,12 +35,12 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: #f6f6f6;
+    color: #e0f4f0;
 }
 
 .navbar li:hover {
-    color: #fbfbfb;
-    color: #ff0000;
+    color: #e0f4f0;
+    color: #b2e8e6;
     animation: translateY 0.8s infinite alternate, changeColor 0.8s infinite alternate;
 }
 
@@ -59,7 +59,7 @@ body {
         color: transparent;
     }
     50% {
-        color: #ff0000;
+        color: #b2e8e6;
     }
 }
 
@@ -69,7 +69,7 @@ body {
         background-color: transparent;
     }
     50% {
-        background-color: #ff0000;
+        background-color: #b2e8e6;
     }
 }
 
@@ -94,14 +94,14 @@ input[type="text"] {
 
 #icons {
     display: flex;
-    margin-top: 1px;
     justify-content: center;
-    color: #ec0909;
+    overflow-y: visible;
+    color: #b2e8e6;
 }
 
 input[type="text"]:focus {
     outline: none;
-    border-color: #6b0c0c;
+    border-color: #b2e8e6;
 }
 
 input[type="text"] {
@@ -110,6 +110,20 @@ input[type="text"] {
 
 input[type="text"]:hover {
     outline: none;
-    border-color: #e20e0e;
-    box-shadow: 0 0 10px 2px #dacaca;
+    border-color: #fff0f5;
+    box-shadow: 0 0 10px 2px #e0f4f0;
+}
+
+.apresentação h1 {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #d6cdb9;
+    text-align: center;
+    word-spacing: 0.2em;
+}
+
+h2 {
+    display: flex;
+    text-align: center;
+    color: #d6cdb9;
 }
